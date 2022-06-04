@@ -3,13 +3,13 @@ import React from 'react'
 class UpdateComponent extends React.Component{
     constructor(props){
         super(props);
-        this.state = {favoritecolor:"red"};
+        this.state = {favoritecolor:"black"};
     }
     shouldComponentUpdate() {
         return true;
     }
     changeColor = () => {
-        this.setState({favoritecolor: "blue"});
+        this.setState({favoritecolor: "white"});
     }
     render(){
         return(

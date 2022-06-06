@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Fetch from './components/fetch';
 import { Component } from 'react';
 import Header from './components/header';
 import UpdateComponent from './components/updatecomponent';
 import DidUpdate from './components/did_update';
-import { UnknownMethodError } from 'selenium-webdriver/lib/error';
 import Unmount from './components/unmount';
+import AxiosFetch from './components/axiosFetch';
+import './components/app.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component{
   render(){
@@ -17,6 +18,7 @@ class App extends Component{
     <UpdateComponent />
     <DidUpdate />
     <Unmount />
+    <AxiosFetch />
     </>
   );
   }

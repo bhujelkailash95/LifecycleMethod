@@ -1,0 +1,11 @@
+.task-complete{
+    color:green;
+}
+
+.task-incomplete{
+    color:red;
+}
+
+#margin{
+    margin-top: 10px;
+}
